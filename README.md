@@ -18,9 +18,7 @@ $$f_0(x) = \arg\min_{\gamma} \sum_{i=1}^N L(y_i, \gamma)$$
 #### (a) Compute Pseudo-Residuals
 For each sample in the training set, compute the negative gradient (pseudo-residuals):
 
-$$  
-r_{im} = -\left[ \frac{\partial L(y_i, f(x_i))}{\partial f(x_i)} \right]_{f=f_{m-1}}  
-$$
+r_im = -[∂L(y_i, f(x_i)) / ∂f(x_i)] evaluated at f = f_{m-1}
 #### (b) Fit a Regression Tree
 Fit a regression tree to the pseudo-residuals $$r_{im}$$, creating terminal regions $$R_{jm}$$ for $$j = 1, 2, \ldots, J_m$$.
 
