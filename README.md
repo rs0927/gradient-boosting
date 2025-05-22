@@ -32,7 +32,7 @@ Update the current model by adding the new tree's predictions:
 
 $$f_m(x) = f_{m-1}(x) + \sum_{j=1}^{J_m} \gamma_{jm} I(x \in R_{jm})$$
 
-where $$I(x \in R_{jm})$$ is an indicator function for whether $$ x $$ belongs to region $$R_{jm}$$.
+where $$I(x \in R_{jm})$$ is an indicator function for whether $$x$$ belongs to region $$R_{jm}$$.
 
 ### 3. Output the Final Model
 After $$M$$ iterations, the final model is:
