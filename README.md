@@ -5,7 +5,7 @@ This document outlines the gradient boosting algorithm for supervised learning t
 ## Algorithm Steps
 
 ### Input:
-- Training set: $$ \{(x_i, y_i)\}_{i=1}^n $$
+- Training set: $$\{(x_i, y_i)\}_{i=1}^n$$
 - Differentiable loss function: $$ L(y, F(x)) $$
 - Number of iterations (boosting stages): $$ M $$
 
